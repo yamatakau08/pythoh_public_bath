@@ -39,4 +39,4 @@ Please visit this URL to authorize this application: ...
 c:\yama\bin\python_public_bath>start public_bath.html
   #+end_src
 
-  ./image/public_bath.html.JPG
+  [[./image/public_bath.html.JPG]]
