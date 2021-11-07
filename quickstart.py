@@ -51,7 +51,7 @@ def main():
 
     home = values[0]
     location = [home[2],home[3]]
-    folium_map = folium.Map(location,zoom_start=13)
+    folium_map = folium.Map(location,zoom_start=12)
 
     # Home Marker
     folium.Marker(location,
