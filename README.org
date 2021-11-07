@@ -1,0 +1,38 @@
+* 事前準備
+** python
+** folium
+** google drive api secret key
+   google drive api 利用する際に作成された、secret key .json ファイルを、credential.json ファイルとして配置する
+
+* 実行
+  Windows コマンドプロンプト
+  Mac
+  *MSYS2 msys2.exe, mingw32 は、folium パッケージインストールに失敗するので、実行できず。*
+
+  初回実行時、
+  Please visit this URL to authorize this application: ...
+  で表示された、URL にブラウザで、アクセスし、プログラムが、google drive にアクセスできるようにする必要がある。
+
+  #+begin_src コマンドプロンプト
+c:\yama\bin\python_public_bath>python quickstart.py
+Please visit this URL to authorize this application: ...
+松の湯
+明神湯
+清水湯
+<a href=https://k-o-i.jp/koten/mutsumiyu/>睦湯</a>
+<a href=https://youcity26.com/>黒湯の温泉 ゆ〜シティー蒲田</a>
+富士の湯
+<a href=https://k-o-i.jp/koten/yakouyu>矢向湯</a>
+しのぶ湯
+<a href=http://www.fujimiyu.com>富士見湯</a>
+いやさか湯
+朝日湯
+小倉湯
+橘湯
+太平館
+福美湯
+今井湯
+富士乃湯
+草津湯
+日吉湯
+  #+end_src
