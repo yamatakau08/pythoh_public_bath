@@ -1,6 +1,10 @@
 * 事前準備
 ** python
 ** folium
+   #+begin_src コマンドプロンプト
+c:\yama\bin\python_public_bath>pip install folium
+   #+end_src
+
 ** google drive api secret key
    google drive api 利用する際に作成された、secret key .json ファイルを、credential.json ファイルとして配置する
 
