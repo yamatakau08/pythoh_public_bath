@@ -35,4 +35,8 @@ Please visit this URL to authorize this application: ...
 富士乃湯
 草津湯
 日吉湯
+
+c:\yama\bin\python_public_bath>start public_bath.html
   #+end_src
+
+  ./image/public_bath.html.JPG
